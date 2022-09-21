@@ -13,81 +13,114 @@
     <meta property="og:image" content="http://kevcha.github.io/tous-pour-un/images/meta-image.jpg" />
     <meta property="og:description" content="À partir de Noël 2022, un seul cadeau sera distribué par personne." />
     <link rel="stylesheet" href="dist/output.css">
+    <link rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎅🏻</text></svg>">
+    <script src="https://kit.fontawesome.com/3b9e6b8fc1.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="src/script.js" defer></script>
   </head>
 
-  <body class="bg-[#9ad2d0]">
-    <div class="relative">
-      <img src="images/hero.jpg" alt="" class="w-full h-[40vh] object-cover">
-      <div class="absolute inset-0 bg-gradient-to-b from-transparent to-[#9ad2d0]"></div>
+  <body class="bg-[#a0d6e7]">
+    <nav class="bg-white py-4">
+      <ul class="container flex justify-end items-center text-[#E15C35] text-sm">
+        <li class="px-4"><a href="#lettre-ouverte">Lettre ouverte</a></li>
+        <li class="px-4"><a href="#signez-la-petition">Signez la pétition</a></li>
+        <li class="px-4"><a href="#tous-pour-un">tous-pour-un</a></li>
+        <li class="px-4"><a href="#action">Passer à l’action</a></li>
+        <li class="px-4"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="my-8">
+      <img src="images/tous-pour-un.png" alt="" class="w-full max-w-[840px] object-contain mx-auto rounded">
     </div>
 
-    <main class="bg-[#FBF0DF] p-5 pb-12 lg:p-20 lg:pt-12 lg:max-w-[840px] mx-auto lg:mb-20">
-      <h1 class="mb-10">Lettre Ouverte du Père Noël</h1>
-
-      <h2 class="mt-10 mb-4">À partir de Noël 2022, un seul cadeau sera distribué par personne.</h2>
-
-      <p class="italic text-base">“Si votre but est de rendre vos enfants et vos proches heureux à Noël – et non pas de consommer pour consommer – chacun
-      d’entre vous devra prendre ses responsabilités et ne choisir qu’un seul cadeau à Noël.”</p>
-      <p class="text-right mb-20">par Le Père Noël</p>
+    <main id="lettre-ouverte" class="bg-white p-5 pb-12 lg:p-20 lg:pt-12 lg:max-w-[840px] mx-auto lg:mb-20 rounded">
+      <h1 class="font-bold text-2xl mb-4 relative text-center">
+        <i class="fa-solid fa-quote-left text-3xl"></i>
+        À partir de Noël 2022, un seul cadeau neuf sera distribué par personne.
+      </h1>
+      <p class="font-bold mb-10 text-center">Par Le Père Noël</p>
 
       <p>Très chers tous,</p>
-      <p>Je vous écris aujourd’hui pour vous faire part d’une décision forte de ma part - qui ne sera pas sans conséquences sur
-      vos fêtes de fin d’année : à partir de cette année, je ne distribuerai plus qu’un seul cadeau par personne.</p>
+      <p>Je vous écris aujourd’hui pour vous faire part d’une décision forte de ma part - qui ne sera pas sans conséquence sur
+      vos fêtes de fin d’année : <span class="font-bold">à partir de cette année, je ne distribuerai plus qu’un seul cadeau neuf par personne.</span></p>
       <p class="mb-8">Je vous explique pourquoi.</p>
 
-      <p>Je n’ai jamais souhaité devenir le plus grand distributeur de jouets au monde. Au pôle nord, j’ai débuté en tant
-      qu’artisan menuisier : je fabriquais de jolis jeux en bois à mes amis pour égayer nos longues soirées d’hiver.</p>
-      <p>Un jour, j’ai reçu un courrier. Le courrier d’un enfant d’une province éloignée, qui me demandait très gentiment si je
+      <p>Je n’ai jamais souhaité devenir le plus grand distributeur de jouets au monde. J’ai débuté en tant
+      qu’artisan menuisier : je fabriquais des jeux en bois à mes amis pour égayer nos longues soirées d’hiver.</p>
+      <p>Un jour, j’ai reçu le courrier d’un enfant d’une province éloignée, qui me demandait très gentiment si je
       pouvais lui offrir un de mes jouets. J’ai évidement dit oui.</p>
       <p class="mb-8">En quelques années, la nouvelle s’est répandue, j’ai commencé à recevoir des milliers, puis des millions de lettres. Les
       enfants qui demandaient adorablement un jouet il y a quelques années se sont mis à lister inlassablement des dizaines de
       cadeaux, que je ne savais plus fabriquer.</p>
 
-      <p class="mb-8">Du fait maison nous sommes passé à l’industriel. Du jeu pour passer un moment ensemble nous sommes arrivés à des piles
-      de jouets individuels.</p>
+      <p class="mb-8 font-bold">Du ”fait maison“, nous sommes passé à l’industriel. Du jeu pour passer un moment ensemble, nous sommes arrivés à des piles de jouets individuels.</p>
       <p>Je me suis peu à peu rendu compte de l’impact de cette frénésie sur le réchauffement climatique et la destruction
       écologique, et de ma contribution personnelle à ces phénomènes. J’ai donc décidé d’utiliser ma notoriété pour changer
       les choses.</p>
 
-      <h2 class="mt-10 mb-4">À Noël 2022, petits et grands devront choisir en leur âme et conscience.</h2>
-      <p>La règle s’appliquera à tous, pas seulement aux enfants. Choisir, c’est renoncer - et montrer l’exemple est important.
-      <span class="font-bold">Nous ne distribuerons qu’un seul cadeau physique neuf par personne pour limiter la sur-production.</span></p>
+      <h2 class="mt-10 mb-4">TOUS POUR UN : à Noël 2022, petits et grands devront choisir UN seul cadeau.</h2>
+      <p>La règle s’appliquera à tous, pas seulement aux enfants. Choisir, c’est renoncer - et montrer l’exemple c’est important.
+      <span class="font-bold">Mes lutins et moi ne distribuerons qu’un seul cadeau physique neuf par personne pour limiter la sur-production.</span></p>
       <p class="mb-8">Les cadeaux physiques, ce sont les jeux, les jouets, les vêtements, les smartphones, etc.</p>
-      <p class="mb-8">Je vous propose, en revanche, de reprendre du temps qualitatif ensemble lors de ces fêtes, et d’offrir à vos proches des
-      moments passés ensemble. Emmenez votre mamie faire un weekend en forêt. Offrez des places de théâtre à vos
-      beaux-parents. Proposer à votre meilleur ami de faire un week-end de baby-sitting de ses 3 enfants, pour qu’il prenne
+      <p class="mb-8">Je vous propose, en revanche, de reprendre du <span class="font-bold">temps</span> lors de ces fêtes, et d’offrir à vos proches des <span class="font-bold">moments passés ensemble</span>. Emmenez votre mamie faire un weekend en forêt. Offrez des places de théâtre à vos beaux-parents. Proposer à votre meilleur ami de faire un week-end de baby-sitting de ses 3 enfants, pour qu’il prenne
       enfin du temps pour lui.</p>
 
-      <p>Et si vraiment vous avez besoin d’offrir du matériel, ne comptez pas sur moi avec du neuf, mais allez chiner du seconde
-      main ! L’Abbé Pierre n’a pas créée Emmaüs pour des prunes enfin : il y en a partout en France, regorgeant de livres, de
-      jeux, et de jolis cadres vintage comme les magasins de déco scandinaves ne savent plus en faire !</p>
+      <p>Et si vraiment vous avez besoin de matériel, ne comptez pas sur moi avec du neuf : allez chiner du seconde
+      main ! L’Abbé Pierre n’a pas créé Emmaüs pour des prunes : il y a des ressourceries partout en France, regorgeant de livres, de
+      jeux, et de jolis cadres vintage comme les magasins de déco scandinaves ne savent plus en faire.</p>
 
-      <h2 class="mt-10 mb-4">Et pour les enfants ?</h2>
-      <p>Vous trouvez sans doute ma décision difficile à expliquer à vos enfants, qui ont déjà découpé les 50 pages du magasine
+      <h2 class="mt-10 mb-4">Les familles et les marques à mes côtés !</h2>
+      <p>Vous trouvez sans doute ma décision difficile à expliquer à vos enfants, qui ont déjà découpé les 50 pages du magazine
       de jouets.</p>
-      <p>Sans doute aussi difficile que de leur expliquer pourquoi ils ne peuvent pas se nourrir exclusivement de bonbons,
+      <p>C’est sans doute aussi difficile que de leur expliquer pourquoi ils ne peuvent pas se nourrir exclusivement de bonbons,
       pourquoi ils doivent se coucher tôt, et pourquoi ils n’ont pas le droit de regarder 5h de dessins animés d’affilé.</p>
       <p>Ce qui leur fait plaisir n’est pas forcément ce qu’il y a de mieux pour eux sur le long terme.</p>
-      <p class="mb-8 font-bold">Et les habituer à vivre dans un monde ou l’excès de consommation détruit petit à petit leur chances de survie sur cette
-      planète n’est pas un cadeau à leur faire.</p>
-      <p class="mb-8">Engagez-vous à mes côtés à leur inculquer le goût de la sobriété, des choses simples, des moments ensemble. Du moins
-      mais mieux.</p>
-      <p>Car malgré les apparences, les ressources de notre planète ne sont pas infinies et nous consommons chaque année
-      davantage de ressources que la Terre ne peut en produire.</p>
-      <p>Mais je suis convaincu que nous pouvons la sauver, et proposer un avenir sain à nos enfants, si nous le décidons tous.
+      <p class="mb-8 font-bold">Et les habituer à vivre dans un monde ou l’excès de consommation détruit petit à petit leur chances de survie sur cette planète n’est pas un cadeau à leur faire.</p>
+      <p>Signez cette pétition et engagez-vous avec moi pour leur inculquer le goût de la sobriété, des choses simples, des moments ensemble. Du moins mais mieux. <span class="font-bold">Pour refaire de Noël un vrai moment de partage, pas de consommation.</span></p>
+      <p>Certaines marques se sont d’ores et déjà rangées à mes côtés dans ce combat vers la durabilité : elles s’engagent à
+      produire peu mais bien, des produits de qualité que vous et vos enfants garderez une vie. Et c’est ça, le plus
+      important. Car malgré les apparences, les ressources de notre planète ne sont pas infinies et nous consommons chaque
+      année davantage de ressources que la Terre ne peut en produire.</p>
+      <p>Je suis convaincu que nous pouvons la sauver, et proposer un avenir sain à nos enfants, si nous le décidons tous.
       Et ça commence ce Noël.</p>
+
+      <p id="signez-la-petition" class="mt-10 text-xs opacity-50">(Lettre largement inspirée par Yvon Chouinard, fondateur de Patagonia.)</p>
+
+      <p class="flex justify-center mt-10">
+        <a href="https://chng.it/gC45ZrjmzS" target="_blank" class="bg-[#E95F32] hover:bg-[#e54b18] transition hover:shadow-xl duration-200 px-4 py-2 text-white font-bold rounded">Signez la pétition du Père Noël</a>
+      </p>
     </main>
 
-    <div class="bg-[#EA7168] py-12 lg:mt-20">
-      <div class="text-white max-w-[840px] mx-auto p-5 lg:px-20 lg:py-14">
-        <h2 class="text-center text-2xl mb-8">À propos d’En Cavale</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem laboriosam quibusdam libero vitae veritatis nam doloremque aperiam minima at tempore? Nobis quaerat aspernatur quasi architecto adipisci, veritatis ipsum? Similique, laboriosam?</p>
+    <div id="tous-pour-un" class="bg-[#a1d5e6] py-12 lg:mt-20">
+      <div class="max-w-[840px] mx-auto p-5 lg:px-20">
+        <h2 class="text-center text-2xl mb-8">À propos de tous-pour-un</h2>
+
+        <p class="mb-8"><a class="underline" href="https://www.tous-pour-un.info">tous-pour-un</a> est un collectif de familles et de marques, créée par Le Père Noël & les Éditions En Cavale en 2022. Notre volonté commune : proposer une autre vision de la consommation aux petits et aux grands - particulièrement en cette période de Noël.
+
+        <p class="font-bold mb-8">Offrir des trucs et des bidules, c’est bien. Acheter moins mais mieux, c’est pas seulement mieux. C’est nécéssaire.</p>
+
+        <p>On pense qu’en tant que marque, on a un sacré rôle à jouer :</p>
+
+        <ul class="list-disc list-inside pl-4 mb-8">
+          <li>en concevant des produits utiles, de bonne qualité - et en luttant contre l’obsolescence</li>
+          <li>en produisant de manière respectueuse de l’environnement et des hommes</li>
+          <li>en utilisant l’argent que vous dépensez chez nous pour rémunérer tous les acteurs de la chaîne de valeur de façon correcte</li>
+          <li>et en vous poussant vous, les consommateurs, à réfléchir avant d’acheter… pour consommer moins</li>
+        </ul>
+
+        <p>On n’est pas votre mère, vous ferez bien ce que vous voulez à Noël, et c’est vous qui savez ce dont vous avez vraiment besoin ou envie. On aura juste fait notre part.</p>
+
+        <p class="flex justify-center mt-10">
+          <a href="mailto:margaux@en-cavale.fr" class="bg-[#E95F32] hover:bg-[#e54b18] transition hover:shadow-xl duration-200 px-4 py-2 text-white font-bold rounded">Vous êtes une marque ? Rejoignez le mouvement !</a>
+        </p>
       </div>
     </div>
 
     <div class="bg-white">
       <div class="container mx-auto py-12">
-        <h2 class="text-2xl mt-0 mb-10 text-center">Ils nous soutiennent</h1>
+        <h2 class="text-2xl mt-0 mb-10 text-center">Ils soutiennent le Père Noël</h1>
 
         <div class="grid grid-cols-2 lg:grid-cols-4 gap-2 lg:gap-4">
           <div class="text-center">
@@ -135,6 +168,64 @@
             <a href="https://en-cavale.fr/" class="rounded hover:shadow-xl transition duration-200 block">
               <img class="max-w-[8rem] max-h-[8rem] mx-auto" src="images/en-cavale.png" alt="édition en cavale">
             </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="action" class="bg-[#111942] text-white/80 py-12">
+      <div class="container mx-auto p-5 lg:px-20">
+        <h2 class="text-center text-2xl mb-2"><i class="fa-solid fa-quote-left text-3xl mr-2"></i>Mes 3 règles d’or pour un Noël plus responsable</h2>
+        <p class="font-bold mb-10 text-center opacity-80">Par Le Père Noël</p>
+
+        <div class="reveal flex items-center justify-start mb-14">
+          <div class="w-2/3">
+            <p class="my-2 text-base lg:block">
+              <span
+                class="bg-yellow-300 transform -rotate-2 inline-block text-black px-3 no-underline"
+                style="border-radius: 21% 43% 20% 54% / 56% 6% 67% 9%">
+                ★ Organisez des SECRET SANTA (<a class="underline" href="https://www.secretsantaorganizer.com/fr/" target="_blank">en 2
+                  clics</a>)
+              </span>
+            </p>
+            <p class="bg-white/5 rounded p-4">C’est quoi ? Le fameux «tirage au sort» où chaque membre de la famille sera chargé d’offrir un cadeau à une seule
+            personne ! Et pour être sûr de son coup et éviter les reventes de cadeaux inutiles sur leboncoin, rien de tel que la
+            liste demandée aux proches en amont !</p>
+          </div>
+          <div class="w-1/3 flex">
+            <img src="images/action-2.png" class="h-40 ml-12">
+          </div>
+        </div>
+
+        <div class="reveal flex justify-end items-center mb-14">
+          <div class="w-1/3 flex justify-end">
+            <img src="images/action-1.png" class="h-40 mr-8">
+          </div>
+          <div class="w-2/3 mb-6">
+            <p class="my-2 text-base lg:block">
+              <span class="bg-yellow-300 transform rotate-1 inline-block text-black px-5 no-underline"
+                style="border-radius: 21% 23% 20% 74% / 26% 46% 27% 9%">
+                ★ Imposez des catégories de cadeaux
+              </span>
+            </p>
+            <p class="bg-white/30 rounded p-4">Du “fait maison” (miam les bons cookies), du consommable (miam la bonne bouteille), du dématérialisé, des expériences, et du seconde main !<br>
+            Pour offrir un appareil tech, pensez reconditionné ! Attention à ne pas remplacer un appareil qui fonctionne encore
+            (comme le font 88 % des Français), au risque d’annuler le bénéfice écologique de votre cadeau.</p>
+          </div>
+        </div>
+
+        <div class="reveal flex justify-start items-center mb-14">
+          <div class="w-2/3">
+            <p class="my-2 text-base lg:block">
+              <span class="bg-yellow-300 transform rotate-2 inline-block text-black px-8 no-underline"
+                style="border-radius: 21% 43% 20% 54% / 56% 6% 67% 9%">
+                ★ Moins mais mieux aussi à table
+              </span>
+            </p>
+            <p class="bg-white/20 rounded p-4">Pour la nourriture et les décos : même topo. Inutile de dépenser plus que prévu et de gaspiller. Éviter de s’y prendre à la dernière minute permet de peser ses choix. Anticiper est ainsi le meilleur moyen d’éviter les achats superflus tout en limitant le stress et les dépenses (les prix augmentent souvent durant les fêtes…).</p>
+          </div>
+          <div class="w-1/3 flex">
+            <img src="images/action-3.png" class="h-40 ml-12">
           </div>
         </div>
       </div>
