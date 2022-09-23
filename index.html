@@ -20,23 +20,38 @@
     <script src="src/script.js" defer></script>
   </head>
 
-  <body class="bg-[#a0d6e7]">
-    <nav class="bg-white py-4">
-      <ul class="container flex justify-end items-center text-[#E15C35] text-sm">
-        <li class="px-4"><a href="#lettre-ouverte">Lettre ouverte</a></li>
-        <li class="px-4"><a href="#signez-la-petition">Signez la pétition</a></li>
-        <li class="px-4"><a href="#tous-pour-un">tous-pour-un</a></li>
-        <li class="px-4"><a href="#action">Passer à l’action</a></li>
-        <li class="px-4"><a href="#contact">Contact</a></li>
-      </ul>
+  <body class="bg-[#a0d6e7] pt-12">
+    <nav class="bg-white fixed top-0 w-full z-10 shadow h-12">
+      <div class="container h-full flex lg:hidden items-center">
+        <label for="toggle-nav" class="py-2 px-4 inline-block">
+          <i class="fa-solid fa-bars text-2xl"></i>
+        </label>
+      </div>
+
+      <input type="checkbox" class="hidden peer" id="toggle-nav">
+      <div class="fixed lg:static z-10 h-screen flex lg:block lg:h-full w-screen top-0 left-0 transform -translate-x-full peer-checked:translate-x-0 lg:transform-none transition duration-200">
+        <ul class="text-white/90 bg-[#111942] lg:bg-white p-2 lg:p-0 lg:h-full lg:flex lg:w-full lg:justify-end lg:items-center lg:text-[#E15C35] text-sm flex-grow lg:container">
+          <li><a class="lg:hover:bg-slate-100 rounded px-4 py-2 block menu-item" href="#lettre-ouverte">Lettre ouverte</a></li>
+          <li><a class="lg:hover:bg-slate-100 rounded px-4 py-2 block menu-item" href="#signez-la-petition">Signez la pétition</a></li>
+          <li><a class="lg:hover:bg-slate-100 rounded px-4 py-2 block menu-item" href="#tous-pour-un">tous-pour-un</a></li>
+          <li><a class="lg:hover:bg-slate-100 rounded px-4 py-2 block menu-item" href="#action">Passer à l’action</a></li>
+          <li><a class="lg:hover:bg-slate-100 rounded px-4 py-2 block menu-item" href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="bg-white/60 lg:hidden">
+          <label for="toggle-nav" class="h-full py-2 px-4 inline-block">
+            <i class="fa-solid fa-xmark text-2xl"></i>
+          </label>
+        </div>
+      </div>
     </nav>
 
-    <div class="my-8">
-      <img src="images/tous-pour-un.png" alt="" class="w-full max-w-[840px] object-contain mx-auto rounded">
+    <div>
+      <img src="images/tous-pour-un.png" alt="" class="w-full max-w-[840px] object-contain mx-auto">
     </div>
 
-    <main id="lettre-ouverte" class="bg-white p-5 pb-12 lg:p-20 lg:pt-12 lg:max-w-[840px] mx-auto lg:mb-20 rounded">
-      <h1 class="font-bold text-2xl mb-4 relative text-center">
+    <main id="lettre-ouverte" class="bg-white p-5 pb-12 lg:p-20 lg:pt-12 lg:max-w-[840px] mx-auto lg:mb-20">
+      <h1 class="font-bold text-2xl mb-4 text-center">
         <i class="fa-solid fa-quote-left text-3xl"></i>
         À partir de Noël 2022, un seul cadeau neuf sera distribué par personne.
       </h1>
@@ -95,7 +110,7 @@
 
     <div id="tous-pour-un" class="bg-[#a1d5e6] py-12 lg:mt-20">
       <div class="max-w-[840px] mx-auto p-5 lg:px-20">
-        <h2 class="text-center text-2xl mb-8">À propos de tous-pour-un</h2>
+        <h2 class="text-center text-2xl mb-8">À propos de <br class="lg:hidden">tous-pour-un</h2>
 
         <p class="mb-8"><a class="underline" href="https://www.tous-pour-un.info">tous-pour-un</a> est un collectif de familles et de marques, créée par Le Père Noël & les Éditions En Cavale en 2022. Notre volonté commune : proposer une autre vision de la consommation aux petits et aux grands - particulièrement en cette période de Noël.
 
@@ -113,7 +128,7 @@
         <p>On n’est pas votre mère, vous ferez bien ce que vous voulez à Noël, et c’est vous qui savez ce dont vous avez vraiment besoin ou envie. On aura juste fait notre part.</p>
 
         <p class="flex justify-center mt-10">
-          <a href="mailto:margaux@en-cavale.fr" class="bg-[#E95F32] hover:bg-[#e54b18] transition hover:shadow-xl duration-200 px-4 py-2 text-white font-bold rounded">Vous êtes une marque ? Rejoignez le mouvement !</a>
+          <a href="mailto:margaux@en-cavale.fr" class="bg-[#E95F32] hover:bg-[#e54b18] transition hover:shadow-xl duration-200 px-4 py-2 text-white text-center font-bold rounded">Vous êtes une marque ? Rejoignez le mouvement !</a>
         </p>
       </div>
     </div>
@@ -179,11 +194,11 @@
         <p class="font-bold mb-10 text-center opacity-80">Par Le Père Noël</p>
 
         <div class="reveal flex items-center justify-start mb-14">
-          <div class="w-2/3">
+          <div class="lg:w-2/3">
             <p class="my-2 text-base lg:block">
               <span
                 class="bg-yellow-300 transform -rotate-2 inline-block text-black px-3 no-underline"
-                style="border-radius: 21% 43% 20% 54% / 56% 6% 67% 9%">
+                style="border-radius: 23% 77% 94% 6% / 39% 33% 67% 61%">
                 ★ Organisez des SECRET SANTA (<a class="underline" href="https://www.secretsantaorganizer.com/fr/" target="_blank">en 2
                   clics</a>)
               </span>
@@ -192,19 +207,19 @@
             personne ! Et pour être sûr de son coup et éviter les reventes de cadeaux inutiles sur leboncoin, rien de tel que la
             liste demandée aux proches en amont !</p>
           </div>
-          <div class="w-1/3 flex">
+          <div class="hidden w-1/3 lg:flex">
             <img src="images/action-2.png" class="h-40 ml-12">
           </div>
         </div>
 
         <div class="reveal flex justify-end items-center mb-14">
-          <div class="w-1/3 flex justify-end">
+          <div class="w-1/3 hidden lg:flex justify-end">
             <img src="images/action-1.png" class="h-40 mr-8">
           </div>
-          <div class="w-2/3 mb-6">
+          <div class="lg:w-2/3 mb-6">
             <p class="my-2 text-base lg:block">
               <span class="bg-yellow-300 transform rotate-1 inline-block text-black px-5 no-underline"
-                style="border-radius: 21% 23% 20% 74% / 26% 46% 27% 9%">
+                style="border-radius: 14% 86% 21% 79% / 85% 16% 84% 15%">
                 ★ Imposez des catégories de cadeaux
               </span>
             </p>
@@ -215,16 +230,16 @@
         </div>
 
         <div class="reveal flex justify-start items-center mb-14">
-          <div class="w-2/3">
+          <div class="lg:w-2/3">
             <p class="my-2 text-base lg:block">
               <span class="bg-yellow-300 transform rotate-2 inline-block text-black px-8 no-underline"
-                style="border-radius: 21% 43% 20% 54% / 56% 6% 67% 9%">
+                style="border-radius: 25% 75% 94% 6% / 58% 25% 75% 42%">
                 ★ Moins mais mieux aussi à table
               </span>
             </p>
             <p class="bg-white/20 rounded p-4">Pour la nourriture et les décos : même topo. Inutile de dépenser plus que prévu et de gaspiller. Éviter de s’y prendre à la dernière minute permet de peser ses choix. Anticiper est ainsi le meilleur moyen d’éviter les achats superflus tout en limitant le stress et les dépenses (les prix augmentent souvent durant les fêtes…).</p>
           </div>
-          <div class="w-1/3 flex">
+          <div class="w-1/3 hidden lg:flex">
             <img src="images/action-3.png" class="h-40 ml-12">
           </div>
         </div>
