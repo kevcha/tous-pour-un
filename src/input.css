@@ -24,3 +24,20 @@ h2 {
 p {
   @apply mb-2;
 }
+
+.highlight-container,
+.highlight {
+  @apply relative;
+}
+
+.highlight-container {
+  @apply inline-block;
+}
+.highlight-container:before {
+  @apply block w-full -mx-1 absolute transform rotate-2 -top-[1px] -left-[1px] bg-white;
+
+  content: " ";
+  height: 90%;
+  border-radius: 20% 25% 20% 24%;
+  padding: 10px 3px 3px 10px;
+}
