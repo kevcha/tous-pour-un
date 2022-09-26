@@ -19,7 +19,7 @@
     <script src="dist/script.js" defer></script>
   </head>
 
-  <body class="bg-[#a0d6e7] pt-12">
+  <body class="pt-12 bg-white">
     <nav class="bg-white fixed top-0 w-full z-10 shadow h-12">
       <div class="container h-full flex lg:hidden items-center">
         <label for="toggle-nav" class="py-2 px-4 inline-block">
@@ -45,8 +45,8 @@
       </div>
     </nav>
 
-    <div>
-      <img src="images/tous-pour-un.png" alt="" class="w-full max-w-[840px] object-contain mx-auto">
+    <div class="lg:my-4">
+      <img src="images/tous-pour-un.png" alt="" class="bg-white w-full max-w-[840px] object-contain mx-auto">
     </div>
 
     <main id="lettre-ouverte" class="bg-white p-5 pb-12 lg:p-20 lg:pt-12 lg:max-w-[840px] mx-auto lg:mb-20">
@@ -57,7 +57,7 @@
       <p class="font-bold mb-10 text-center">Par Le Père Noël</p>
 
       <p>Très chers tous,</p>
-      <p>Je suis le père Noël, et je vous écris aujourd’hui pour vous faire part d’une décision forte de ma part - qui ne sera pas sans conséquence sur vos fêtes de fin d’année : <span class="font-bold">à partir de maintenant, je ne distribuerai que des cadeaux qui ont du sens.</span></p>
+      <p>Je suis le Père Noël, et je vous écris aujourd’hui pour vous faire part d’une décision forte de ma part - qui ne sera pas sans conséquence sur vos fêtes de fin d’année : <span class="font-bold">à partir de maintenant, je ne distribuerai que des cadeaux qui ont du sens.</span></p>
 
       <p class="mb-8">Je vous explique pourquoi.</p>
 
@@ -114,7 +114,11 @@
 
       <p class="my-4">Et comme le disaient <i class="font-italic">Les Trois Mousquetaires</i> - en cri de ralliement solidaire : <i class="font-italic">Un pour tous, tous pour un !</i><span class="font-bold">N’oubliez pas, ça commence ce Noël.</span></p>
 
-      <p>Avec tout l’optimisme du monde, le père Noël ❤️</p>
+      <p>Avec tout l’optimisme du monde, le Père Noël ❤️</p>
+
+      <div class="flex justify-center">
+        <img src="/images/signature.png" alt="Signature du Père Noël" class="w-2/3 lg:w-1/2">
+      </div>
 
       <p id="signez-la-petition" class="mt-10 text-xs opacity-50">(Lettre largement inspirée par Yvon Chouinard, fondateur de Patagonia.)</p>
 
@@ -123,9 +127,9 @@
       </p>
     </main>
 
-    <div id="tous-pour-un" class="bg-[#a1d5e6] py-12 lg:mt-20">
+    <div id="tous-pour-un" class="bg-[#9ad2d0] py-12 lg:mt-20">
       <div class="max-w-[840px] mx-auto p-5 lg:px-20">
-        <h2 class="text-center text-2xl mb-8">Tous-pour-un</h2>
+        <h2 class="text-center text-2xl mb-8">TOUS POUR UN</h2>
 
         <p class="mb-8"><a class="underline" href="https://www.tous-pour-un.info">tous-pour-un</a> est un collectif de familles et de marques, créée par Le Père Noël & les Éditions En Cavale en 2022. Notre volonté commune : proposer une autre vision de la consommation aux petits et aux grands - particulièrement en cette période de Noël.
 
@@ -133,16 +137,16 @@
           <span class="px-1 bg-yellow-300 text-black">Offrir des trucs et des bidules, c’est bien. Acheter moins mais mieux, c’est pas seulement mieux. C’est nécéssaire.</span>
         </p>
 
-        <p>On pense qu’en tant que marque, on a un sacré rôle à jouer :</p>
+        <p>En tant qu’entreprise, on pense que ce n’est pas seulement au consommateur de savoir ”mieux consommer“, mais aussi et surtout à ceux qui produisent de savoir ”mieux produire“. On a donc un sacré rôle à jouer :</p>
 
         <ul class="list-disc list-inside pl-4 mb-8">
           <li>en concevant des produits utiles, de bonne qualité - et en luttant contre l’obsolescence</li>
           <li>en produisant de manière respectueuse de l’environnement et des hommes</li>
-          <li>en utilisant l’argent que vous dépensez chez nous pour rémunérer tous les acteurs de la chaîne de valeur de façon correcte</li>
-          <li>et en vous poussant vous, les consommateurs, à réfléchir avant d’acheter… pour consommer moins</li>
+          <li>en utilisant l’argent des consommateurs pour rémunérer tous les acteurs de la chaîne de valeur de façon acceptable</li>
+          <li>et en invitant vous, les consommateurs, à réfléchir avant d’acheter... Pour consommer moins mais mieux.</li>
         </ul>
 
-        <p>On n’est pas votre mère, vous ferez bien ce que vous voulez à Noël, et c’est vous qui savez ce dont vous avez vraiment besoin ou envie. On aura juste fait notre part.</p>
+        <p>Alors, on n’est pas votre mère, vous ferez bien ce que vous voulez à Noël, et c’est vous qui savez ce dont vous avez vraiment besoin ou envie. On aura juste fait notre part du travail.</p>
 
         <p class="flex justify-center mt-10">
           <a href="mailto:margaux@en-cavale.fr" class="bg-[#E95F32] hover:bg-[#e54b18] transition hover:shadow-xl duration-200 px-4 py-2 text-white text-center font-bold rounded">Vous êtes une marque ? Rejoignez le mouvement !</a>
@@ -156,49 +160,13 @@
 
         <div class="grid grid-cols-2 lg:grid-cols-4 gap-2 lg:gap-4">
           <div class="text-center">
-            <a href="https://en-cavale.fr/" class="rounded hover:shadow-xl transition duration-200 block">
+            <a href="https://en-cavale.fr/" target="_blank" class="w-full h-full flex items-center justity-center hover:shadow-xl transition duration-200">
               <img class="max-w-[8rem] max-h-[8rem] mx-auto" src="images/en-cavale.png" alt="édition en cavale">
             </a>
           </div>
           <div class="text-center">
-            <a href="https://en-cavale.fr/" class="rounded hover:shadow-xl transition duration-200 block">
-              <img class="max-w-[8rem] max-h-[8rem] mx-auto" src="images/en-cavale.png" alt="édition en cavale">
-            </a>
-          </div><div class="text-center">
-            <a href="https://en-cavale.fr/" class="rounded hover:shadow-xl transition duration-200 block">
-              <img class="max-w-[8rem] max-h-[8rem] mx-auto" src="images/en-cavale.png" alt="édition en cavale">
-            </a>
-          </div><div class="text-center">
-            <a href="https://en-cavale.fr/" class="rounded hover:shadow-xl transition duration-200 block">
-              <img class="max-w-[8rem] max-h-[8rem] mx-auto" src="images/en-cavale.png" alt="édition en cavale">
-            </a>
-          </div><div class="text-center">
-            <a href="https://en-cavale.fr/" class="rounded hover:shadow-xl transition duration-200 block">
-              <img class="max-w-[8rem] max-h-[8rem] mx-auto" src="images/en-cavale.png" alt="édition en cavale">
-            </a>
-          </div><div class="text-center">
-            <a href="https://en-cavale.fr/" class="rounded hover:shadow-xl transition duration-200 block">
-              <img class="max-w-[8rem] max-h-[8rem] mx-auto" src="images/en-cavale.png" alt="édition en cavale">
-            </a>
-          </div><div class="text-center">
-            <a href="https://en-cavale.fr/" class="rounded hover:shadow-xl transition duration-200 block">
-              <img class="max-w-[8rem] max-h-[8rem] mx-auto" src="images/en-cavale.png" alt="édition en cavale">
-            </a>
-          </div><div class="text-center">
-            <a href="https://en-cavale.fr/" class="rounded hover:shadow-xl transition duration-200 block">
-              <img class="max-w-[8rem] max-h-[8rem] mx-auto" src="images/en-cavale.png" alt="édition en cavale">
-            </a>
-          </div><div class="text-center">
-            <a href="https://en-cavale.fr/" class="rounded hover:shadow-xl transition duration-200 block">
-              <img class="max-w-[8rem] max-h-[8rem] mx-auto" src="images/en-cavale.png" alt="édition en cavale">
-            </a>
-          </div><div class="text-center">
-            <a href="https://en-cavale.fr/" class="rounded hover:shadow-xl transition duration-200 block">
-              <img class="max-w-[8rem] max-h-[8rem] mx-auto" src="images/en-cavale.png" alt="édition en cavale">
-            </a>
-          </div><div class="text-center">
-            <a href="https://en-cavale.fr/" class="rounded hover:shadow-xl transition duration-200 block">
-              <img class="max-w-[8rem] max-h-[8rem] mx-auto" src="images/en-cavale.png" alt="édition en cavale">
+            <a href="https://lejouetsimple.fr/" target="_blank" class="w-full h-full flex items-center justity-center hover:shadow-xl transition duration-200">
+              <img class="max-w-[8rem] max-h-[8rem] mx-auto" src="images/jouet-simple.png" alt="Le Jouet Simple">
             </a>
           </div>
         </div>
@@ -220,9 +188,7 @@
                   clics</a>)
               </span>
             </p>
-            <p class="bg-white/5 rounded p-4">C’est quoi ? Le fameux «tirage au sort» où chaque membre de la famille sera chargé d’offrir un cadeau à une seule
-            personne ! Et pour être sûr de son coup et éviter les reventes de cadeaux inutiles sur leboncoin, rien de tel que la
-            liste demandée aux proches en amont !</p>
+            <p class="bg-white/5 rounded p-4">C’est quoi ? Le fameux «tirage au sort» où chaque membre de la famille sera chargé d’offrir un cadeau à une seule personne ! Et pour être sûr de son coup et éviter les reventes de cadeaux non désirés sur leboncoin, vous pouvez demander à tous les participants d’établir une petite liste !</p>
           </div>
           <div class="hidden w-1/3 lg:flex">
             <img src="images/action-2.png" class="h-40 ml-12">
@@ -237,12 +203,11 @@
             <p class="my-2 text-base lg:block">
               <span class="bg-yellow-300 transform rotate-1 inline-block text-black px-5 no-underline"
                 style="border-radius: 14% 86% 21% 79% / 85% 16% 84% 15%">
-                ★ Imposez des catégories de cadeaux
+                ★ Proposez des catégories de cadeaux plus green
               </span>
             </p>
-            <p class="bg-white/30 rounded p-4">Du “fait maison” (miam les bons cookies), du consommable (miam la bonne bouteille), du dématérialisé, des expériences, et du seconde main !<br>
-            Pour offrir un appareil tech, pensez reconditionné ! Attention à ne pas remplacer un appareil qui fonctionne encore
-            (comme le font 88 % des Français), au risque d’annuler le bénéfice écologique de votre cadeau.</p>
+            <p class="bg-white/30 rounded p-4">Du local et labélisé (vive le Made In France), du ”fait maison“ (miam les bons cookies), du consommable (miam la bonne bouteille), du dématérialisé, des expériences, et du seconde main … Les catégories imposées ne manquent pas.<br>
+            Côté tech, pensez au reconditionné… A ne pas remplacer un appareil qui fonctionne encore (comme le font 88% des français), au risque d’annuler le bénéfice écologique de votre démarche.</p>
           </div>
         </div>
 
@@ -251,10 +216,10 @@
             <p class="my-2 text-base lg:block">
               <span class="bg-yellow-300 transform rotate-2 inline-block text-black px-8 no-underline"
                 style="border-radius: 12% 20% 33% 44% / 34% 74% 54% 84%">
-                ★ Moins mais mieux aussi à table
+                ★ Le trop est l’enemi du bien
               </span>
             </p>
-            <p class="bg-white/20 rounded p-4">Pour la nourriture et les décos : même topo. Inutile de dépenser plus que prévu et de gaspiller. Éviter de s’y prendre à la dernière minute permet de peser ses choix. Anticiper est ainsi le meilleur moyen d’éviter les achats superflus tout en limitant le stress et les dépenses (les prix augmentent souvent durant les fêtes…).</p>
+            <p class="bg-white/20 rounded p-4">Pour la nourriture et les décos : même topo. Inutile d’en faire trop !. On sélectionne des bons produits locaux, on vise des quantités raisonnables. Parole de Père Noël : honorer n’est pas gaspiller.</p>
           </div>
           <div class="w-1/3 hidden lg:flex">
             <img src="images/action-3.png" class="h-40 ml-12">
@@ -268,5 +233,32 @@
         </p>
       </div>
     </div>
+
+    <footer class="bg-[#9ad2d0]">
+      <div class="max-w-[840px] mx-auto lg:grid lg:grid-cols-2">
+        <div class="py-4">
+          <p class="text-base font-bold text-center mb-4">Les complices du Père Noël</p>
+          <div class="flex items-center justify-center gap-8">
+            <a href="https://en-cavale.fr/" target="_blank" class="h-full flex items-center justity-center">
+              <img class="w-20 mx-auto" src="images/en-cavale.png" alt="édition en cavale">
+            </a>
+
+            <a href="https://lejouetsimple.fr/" target="_blank" class="h-full flex items-center justity-center">
+              <img class="w-20 mx-auto" src="images/jouet-simple.png" alt="Le Jouet Simple">
+            </a>
+          </div>
+        </div>
+
+        <div class="py-4">
+          <p class="text-base font-bold text-center mb-4">Contact</p>
+          <ul class="text-sm text-center">
+            <li><a href="mailto:margaux@en-cavale.fr" class="underline">margaux@en-cavale.fr</a></li>
+            <li><a href="mailto:astrid@en-cavale.fr" class="underline">astrid@en-cavale.fr</a></li>
+            <li><a href="mailto:pierre.veron@lejouetsimple.fr" class="underline">pierre.veron@lejouetsimple.fr</a></li>
+            <li><a href="mailto:nicolas@lejouetsimple.fr" class="underline">nicolas@lejouetsimple.fr</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
